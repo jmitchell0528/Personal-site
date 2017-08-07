@@ -21,7 +21,7 @@ $(function() {
             }
 
             $.ajax({
-                url:  "http://localhost:3000/api/form",
+                url:  "/api/form",
                 type: "POST",
                 data: JSON.stringify({
                     name: name,

@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.post('/api/form', (req, res) => {
   console.log(req.body)
   let transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: 'Gmail',
     auth: {
         user: config.email,
         pass: config.password
